@@ -1,0 +1,12 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0%, 0%, 94%);
+    background-image: url(https://i.pinimg.com/736x/7a/29/0f/7a290fe517c932552232cf134e9b4149.jpg)
+    ,url(https://i.pinimg.com/736x/db/5a/a7/db5aa759ff860dceae5c8f80ba9f8c28.jpg);
+    /* background-repeat: no-repeat;
+    /* background-size: 100% 100%; */ */
+    /* background-position: top right; */
+    /* background-blend-mode:screen; */
+
+}

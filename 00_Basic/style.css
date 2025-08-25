@@ -1,0 +1,33 @@
+*{
+    background-color: rgb(232, 195, 133);
+}
+
+/* a , h1 {
+    color:blue;
+} */
+
+/* .header {
+    color : rgb(197, 24, 24);
+} */
+
+/* #para {
+    color : rgb(18, 204, 18);
+    color : rgb(255,0,0);
+    color : rgba(0,0,255,0.5);
+    color : #0000ff;
+    color : transparent;
+}  */
+
+
+a:hover {
+    color : rgb(210, 27, 27);
+}
+
+.hero-section { 
+      color : rgb(255, 255, 255);
+      color : #fff;
+}
+
+p{
+    color : currentColor;
+}
