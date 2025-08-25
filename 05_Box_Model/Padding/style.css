@@ -1,0 +1,29 @@
+body {
+    background-color:  #fdf6e3;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    /* margin:20px; */
+}
+
+.section-padding {
+    
+    width: 450px;
+    height: 550px;
+    /* margin: 60px; */
+    background-image: linear-gradient(to right top, #009efa, #00acfe, #00b9ff, #00c6fe, #00d2fc);
+    color: white;
+    border: 8px solid rgb(0, 38, 255);
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 30px;
+    text-align: left;
+    margin: 20px 30px 40px 50px;
+
+    padding: 30px 40px 50px 60px;
+} 
+
+
+
+
+
+
