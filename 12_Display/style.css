@@ -1,0 +1,44 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Urbanist;
+}
+
+body {
+  padding: 50px 100px;
+  background-color: hsla(0, 0%, 94%);
+}
+
+p {
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  padding: 30px 20px;
+  color: white;
+  border-radius: 10px;
+  padding: 30x 24px;
+  margin: 20px;
+
+}
+
+a {
+  display: none;
+  display: inline-block;
+  display: block;
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  
+}
+
+
+
+
+
+
