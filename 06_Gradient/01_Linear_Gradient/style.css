@@ -7,11 +7,12 @@ body {
 section {
     width: 100%;
     height: 100vh;
+    /* background-color: rgb(22, 221, 221); */
     /* background-image: linear-gradient(rgb(35, 216, 96),rgb(212, 212, 63)); */
     /* background-image: linear-gradient(to left, rgb(35, 216, 96),rgb(212, 212, 63)); */
     /* background-image: linear-gradient(130deg , rgb(35, 216, 96),rgb(212, 212, 63)); */
     /* background-image: linear-gradient(to top left ,rgb(35, 189, 216),rgb(212, 63, 142)); */
-    /* background-image: linear-gradient(to top left ,rgba(255, 0, 25, 1),rgba(255, 187, 0, 1)) ,url(https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png); */
+    background-image: linear-gradient(to top left ,rgba(255, 0, 25, 1),rgba(255, 187, 0, 1)) ,url(https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-image: repeating-linear-gradient(to top left ,rgb(35, 189, 216),rgb(212, 63, 142) 100px); */

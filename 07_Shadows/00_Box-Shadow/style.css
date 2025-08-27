@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 29, 28);
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+.shadow {
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    background-color: rgb(197, 140, 16);
+    border-radius: 50%;
+
+    /* box-shadow */
+
+    box-shadow: 0px 0px 50px 5px #ffb000;
+}

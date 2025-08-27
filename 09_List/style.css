@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    /* width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 0, 0);
+    background-size: 50% 50% 50% 50%;
+    background-repeat: no-repeat; */
+    /* display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif; */
+}
+
+/* .upper {
+    margin-top: -100px;
+    padding: 0px;
+    width: 1275px;
+    height: 50vh;
+    background-color: blueviolet; 
+} */
+
+/* section {
+    width: 50%;
+    height: 50vh;
+    background-color: rgb(4, 4, 4);
+} */
+
+/* .WG {
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+} */
+
+/* html {
+  font-family: "Urbanist";
+} */
+
+body {
+  width: 100%;
+  height: 100vh;
+  /* background-color: blue; */
+  background-image: linear-gradient(yellow, green);
+   background-image: linear-gradient(to bottom, #5b697a 0%, #5b697a 50%),
+  linear-gradient(to bottom, #fafbfd 0%, #fafbfd 50%); 
+  background-size: 100% 50%, 100% 50%;
+  background-repeat: no-repeat;
+  /* display: grid;
+  place-items: center; */
+}  
+
+/* .lists {
+  width: 500px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+} */
+
+/* ul {
+  list-style-type: decimal;
+  list-style-position: inside;
+  list-style-image: url("../images/mario-run.gif");
+} */
+
+/* li {
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  border: 2px solid #ed5656;
+} */
+
