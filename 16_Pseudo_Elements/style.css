@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 15px;
+  padding: 0px;
   box-sizing: border-box;
   font-family: "Jost";
 }
@@ -67,7 +67,7 @@ body {
 .hero-content p {
   font-size: 18px;
   letter-spacing: 1px;
-  margin: 20px 0 40px 0;
+  margin: 20px 0 40px 15px;
 }
 
 
@@ -92,6 +92,11 @@ a {
 
 p::selection {
   color:rgb(255, 0, 0);
+}
+
+a:hover {
+  color:#0c0c0c;
+  background-color: #fff;
 }
 
 
