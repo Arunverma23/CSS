@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+
+body {
+  background-color: #080a0c;
+  color: azure;
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+  max-width: 1320px;
+  padding: 64px 0;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 64px;
+}
+
+.grid-two-column {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  position: relative;
+}
+
+
+.hero-content h1::before {
+  content: " BEFORE ";
+  position: absolute;
+  top: -30px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #2965f1;
+}
+
+.hero-content h1::after {
+  /* content: " AFTER "; */
+  content:"";
+  right:0;
+  bottom: 0;
+  position: absolute;
+  /* left: 420px;
+  text-decoration: underline;
+  text-decoration-color: #2965f1 ;
+  text-decoration-thickness: 8px;
+  text-decoration-skip-ink: auto; */
+  border: 2px solid red;
+  width: 390px; 
+}
+
+
+.hero-content p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 20px 0 40px 0;
+}
+
+
+img {
+  max-width: 80%;
+  height: auto;
+}
+
+a {
+  background-color: transparent;
+  display: inline-block;
+  padding: 12px 32px;
+  text-decoration: none;
+  border-radius: 05px;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 200px;
+  text-align: center;
+}
+
+p::selection {
+  color:rgb(255, 0, 0);
+}
+
+

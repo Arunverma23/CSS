@@ -8,3 +8,4 @@ CSS REPO
 # mycolor space
 # 9 elements github
 # get CSS SCAN
+# font awesome
