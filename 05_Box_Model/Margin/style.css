@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUH-oIAvcVSDEN54K4XFbmUAynW9xva-dQ0g&s);
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.section-padding {
+    
+    width: 850px;
+    height: 120px;
+    background-image: linear-gradient(to right top, #009efa, #00acfe, #00b9ff, #00c6fe, #00d2fc);
+    color: white;
+    /* border: 8px solid rgb(0, 38, 255); */
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 30px;
+    text-align: left;
+    margin: auto auto;
+
+    padding: 30px 40px 50px 60px;
+} 
