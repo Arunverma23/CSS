@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Urbanist", sans-serif;
+      }
+
+      body {
+        background-color: hsl(0, 0%, 85%);
+        background-color: #2b3033;
+      }
+
+      .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        box-shadow: inset 0 0 0 5px #4861ec;
+        perspective: 1000px;
+      }
+
+      .box {
+        width: 100%;
+        width: 500px;
+        height: auto;
+        background-color: #4861ec;
+        box-shadow: 0 0 0px 15px #353f6d;
+        margin: 20px;
+        color: #fff;
+        font-size: 2rem;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 2s linear;
+      }
+
+      .box:hover {
+        /* transform: translateZ(200px); */
+        transform: rotateY(180deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="box" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/726px-CSS3_logo_and_wordmark.svg.png?20160530175649" />
+    </div>
+  </body>
+</html>
