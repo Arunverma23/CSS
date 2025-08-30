@@ -17,33 +17,41 @@
         place-items: center;
         background-color: #191825;
       }
+      
       button {
         padding: 12px 36px;
-        border: 2px solid #865dff;
+        width: 500px;
+        height: 100px;
+        border: 8px solid #865dff;
         text-align: center;
         color: #865dff;
         font-weight: bold;
-        font-size: 20px;
-        text-transform: capitalize;
-        background-color: transparent;
-
-        &:hover {
-          border: 2px solid #d80032;
-          color: #d80032;
-          animation: shaking 0.2s linear;
-        }
+        font-size: 40px;
+        background-color: #191825;
       }
 
-      @keyframes shaking {
+      button:hover {
+          color:red;
+          border-color: red;
+          animation: shake 0.2s
+          linear infinite ;
+      }
+
+      @keyframes shake {
+
         0% {
-          rotate: 20deg;
+          rotate: -10deg;
+
         }
+
         50% {
-          rotate: -20deg;
+          rotate: 10deg;
         }
-        100% {
-          rotate: 20deg;
+
+        100%{
+          rotate: -10deg;
         }
+        
       }
     </style>
   </head>
