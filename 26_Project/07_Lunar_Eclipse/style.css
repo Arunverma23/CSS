@@ -4,12 +4,8 @@
     box-sizing: border-box;
 }
 
- html {
-    font-size: 10px; 
-}
-
 body {
-    background-color:antiquewhite;
+    background-color: #eeebe9;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -20,50 +16,38 @@ body {
 }
 
 .outer-box{
-    height: 50rem;
-    width: 50rem;
-    background-color: yellow;
+    width: 40vw;
+    aspect-ratio: 1;
+    background-color: #ffbb5cb5;
     border-radius: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative; 
     animation: colorchange 8s linear infinite;
-     overflow: visible;
-    
-    
-}
-
-
-.void-circle {
-
-    height:25rem;
-    width: 25rem;
-    background-color:  #e25e3e;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    /* background-color: transparent; */
-
 }
 
 .sun {
-    height:20rem;
-    width: 20rem;
-    background-color:  #000000;
+    width: 18vw;
+    aspect-ratio: 1;
+    background-color:  #e25e3c;
     border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    /* animation: colorchange 2s linear infinite; */
-    animation: motion 8s ease-in infinite;
-    box-shadow: 0px 0px 10px 2px whitesmoke;
-    /* background-color: transparent; */
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+        content: "";
+        width: inherit;
+        aspect-ratio: 1;
+        position: absolute;
+        background-color: #000;
+        top: 0;
+        left: 0;
+        border-radius: inherit;
+        animation: motion 8s ease-in-out infinite;
+        box-shadow: 0 0 20px 2px #d8d0d0;
+
+    }
+
 }
 
 @keyframes colorchange {
@@ -88,17 +72,17 @@ body {
 @keyframes motion {
 
     0% {
-        left: 0%;
-        /* background-color: #ffbb5cb5; */
+        translate: 100%;
+        scale: 1;
     }
 
     50% {
-        left: 50%;
-        /* background-color: rgb(0, 0, 0); */
+        translate: 0%;
+        scale: 0.9;
     }
 
     100% {
-        left: 100%;
-        /* background-color: #ffbb5cb5; */
+        translate: -100%;
+        scale: 1;
     }
 }
