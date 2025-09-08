@@ -8,12 +8,11 @@ During my CSS and web development journey, I found several websites and tools ex
 
 | Name | Description | Link |
 |------|-------------|------|
-| Pixcap | Collaborative design tool for creating vector graphics and UI components. | [pixcap.com](https://pixcap.com) |
+| Figma | Browser-based design tool for UI/UX design, prototyping, and collaborative workflows. Supports 2D design and 3D plugins. | [figma.com](https://www.figma.com) |
 | Excalidraw | Virtual whiteboard for sketching UI/UX designs. | [excalidraw.com](https://excalidraw.com) |
 | Google Fonts | Extensive library of free fonts easily integrated using CSS. | [fonts.google.com](https://fonts.google.com) |
 | DaFont | Collection of creative fonts for personal projects. | [dafont.com](https://www.dafont.com) |
 | MyColorSpace | Tool for generating color palettes and gradients. | [mycolor.space](https://mycolor.space) |
-| 9elements CSS | Useful CSS snippets and examples for learning and reference. | [9elements.github.io](https://9elements.github.io) |
 | CSS Scan | Inspect and copy CSS styles directly from any website. | [getcssscan.com](https://getcssscan.com) |
 | Font Awesome | Scalable vector icons easily styled with CSS. | [fontawesome.com](https://fontawesome.com) |
 | Shape Divider | Create decorative section dividers for web pages with CSS. | [shapedivider.app](https://www.shapedivider.app) |
